@@ -1,6 +1,6 @@
 # Flexbox - November 2018 - Review
 
-- [ ] display: flex;
+- [ ] display: flex
 
 - [ ] flex-direction: row | row-reverse | column | column-reverse
 
@@ -10,6 +10,6 @@
 
 - [ ] align-items: flex-start | flex-end | center | baseline | stretch
 
----
+## Useful Resources
 
 [CSS-Tricks - Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
