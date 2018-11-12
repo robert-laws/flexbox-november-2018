@@ -1,0 +1,22 @@
+{
+  "name": "flexbox-november-2018",
+  "version": "1.0.0",
+  "description": "Flexbox Deep Dive",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robert-laws/flexbox-november-2018.git"
+  },
+  "keywords": [
+    "Flexbox"
+  ],
+  "author": "Robert Laws",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robert-laws/flexbox-november-2018/issues"
+  },
+  "homepage": "https://github.com/robert-laws/flexbox-november-2018#readme"
+}
