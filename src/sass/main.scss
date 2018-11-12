@@ -2,6 +2,9 @@
 @import "base/variables";
 @import "base/reset";
 
+// modules
+@import "modules/mixins";
 
 // partials
 @import "partials/navigation";
+@import "partials/blocks";

@@ -1,0 +1,11 @@
+extends layouts/baseline.pug
+
+block content
+  h1 Blocks
+  section.blocks
+    +block("One")(class="red")
+    +block("Two")(class="green")
+    +block("Three")(class="blue")
+    +block("Four")(class="orange")
+    +block("Five")(class="darkgreen")
+    +block("Six")(class="blue")

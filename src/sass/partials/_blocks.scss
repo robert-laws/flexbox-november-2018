@@ -1,0 +1,18 @@
+section.blocks {
+  height: 400px;
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-end;
+
+  .block {
+    @include block(green);
+    @include block(red);
+    @include block(blue);
+    @include block(orange);
+    @include block(darkgreen);
+  }
+}

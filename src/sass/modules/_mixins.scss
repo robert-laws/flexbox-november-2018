@@ -1,0 +1,11 @@
+@mixin block($bg-color, $height: 100px, $width: 100px, $padding: 10px, $margin: 0px, $color: #FFF) {
+  &.#{$bg-color} {
+    // height: $height;
+    // width: $width;
+    background-color: $bg-color;
+    color: $color;
+    padding: $padding;
+    // margin: $margin;
+    font-weight: 700;
+  }
+}
