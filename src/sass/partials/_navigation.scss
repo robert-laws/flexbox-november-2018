@@ -1,3 +1,25 @@
-nav {
-  border: 1px solid $primary-color;
+header {
+  display: flex;
+
+  h1 {
+    @extend %basic-border;
+    flex: 1;
+  }
+
+  nav {
+    @extend %basic-border;
+    flex: 1;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+  
+    a {
+      color: darken($primary-color, 20%);
+    }
+  }
+}
+
+%basic-border {
+  padding: 10px;
+  border: 1px dashed $secondary-color;
 }
