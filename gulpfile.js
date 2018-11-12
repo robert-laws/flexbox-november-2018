@@ -11,7 +11,8 @@ var paths = {
     dest: "build/styles"
   },
   pug: {
-    src: "src/pug/**/*.pug",
+    src: "src/pug/*.pug",
+    watch: "src/pug/**/*.pug",
     dest: "build"
   },
   images: {
@@ -59,7 +60,7 @@ gulp.task("watch", function() {
     }
   });
   gulp.watch(paths.styles.src, ["sass"]);
-  gulp.watch(paths.pug.src, ["pug"])
+  gulp.watch(paths.pug.watch, ["pug"])
   gulp.watch(paths.images.src, ["images"])
 });
 
