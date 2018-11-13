@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  .box {
+    background-color: #CC0042;
+    color: #FFF;
+    padding: 20px;    
+    transition: 1s background-color;
+    flex: 1 1 300px;
+
+    h3 {
+      text-shadow: rgb(22, 22, 22) 1px 1px 5px;
+      font: {
+        family: "Source Sans Pro", sans-serif;
+        size: 1.5em;
+        weight: 700;
+      }
+    }
+
+    &:hover {
+      background-color: darken(#FF0052, 20%);
+    }
+  }
+  
+  .middle {
+    background-color: #B20039;
+  }
+}
+
