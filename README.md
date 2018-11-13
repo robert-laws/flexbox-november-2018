@@ -1,15 +1,33 @@
 # Flexbox - November 2018 - Review
 
-- [ ] display: flex
+## Container Properties
 
-- [ ] flex-direction: row | row-reverse | column | column-reverse
+* display: flex
 
-- [ ] flex-wrap: nowrap | wrap | wrap-reverse
+* flex-direction: row | row-reverse | column | column-reverse
 
-- [ ] align-content: flex-start | flex-end | center | space-between | space-around | stretch
+* flex-wrap: nowrap | wrap | wrap-reverse
 
-- [ ] align-items: flex-start | flex-end | center | baseline | stretch
+* align-content: flex-start | flex-end | center | space-between | space-around | stretch
 
-## Useful Resources
+* align-items: flex-start | flex-end | center | baseline | stretch
+
+* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly
+
+## Flex Item Properties
+
+* order:
+
+* flex:
+
+* flex-grow:
+
+* flex-shrink:
+
+* flex-basis:
+
+* align-self:
+
+### Useful Resources
 
 [CSS-Tricks - Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)

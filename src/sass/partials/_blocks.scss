@@ -1,12 +1,11 @@
 section.blocks {
   height: 400px;
-  width: 300px;
 
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  align-content: flex-end;
+  // justify-content: space-between;
 
   .block {
     @include block(green);
@@ -14,5 +13,9 @@ section.blocks {
     @include block(blue);
     @include block(orange);
     @include block(darkgreen);
+
+    &.green {
+      align-self: flex-end;
+    }
   }
 }
