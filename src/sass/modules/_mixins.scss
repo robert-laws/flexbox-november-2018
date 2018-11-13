@@ -9,3 +9,12 @@
     font-weight: 700;
   }
 }
+
+@mixin basic-block($bg-color, $padding: 12px) {
+  &.#{$bg-color} {
+    background-color: $bg-color;
+    color: #FFF;
+    padding: $padding;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,9 @@
+extends layouts/baseline.pug
+
+block content
+  h2 Flex Item Property - Order, Flex-Basis, Flex-Grow, Flex-Shrink
+  section.order-blocks
+    +basic-block("basic block - One")(class="red")
+    +basic-block("basic block - Two")(class="green")
+    +basic-block("basic block - Three")(class="blue")
+    +basic-block("basic block - Four")(class="orange")
