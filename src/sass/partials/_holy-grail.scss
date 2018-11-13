@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  flex-direction: column;
+
+  header {
+    @extend %basic-area;
+    @extend %bg-green;
+    flex: 1;
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+
+      a {
+        flex-basis: 100px;
+      }
+    }
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 800px;
+
+    @media screen and (max-width: 640px) {
+      flex-direction: column;
+      flex: 1;
+    }
+
+    article {
+      @extend %basic-area;
+      @extend %bg-blue;
+      flex: 6 0 400px;
+    }
+
+    nav {
+      @extend %basic-area;
+      @extend %bg-orange;
+      flex: 1 0 400px;
+      order: -1;
+
+      @media screen and (max-width: 640px) {
+        flex: 1 0 100px;
+        order: 1;
+      }
+    }
+
+    aside {
+      @extend %basic-area;
+      @extend %bg-orange;
+      flex: 1 0 400px;
+
+      @media screen and (max-width: 640px) {
+        flex: 1 0 100px;
+        order: 1;
+      }
+    }
+  }
+
+  footer {
+    @extend %basic-area;
+    @extend %bg-green;
+    flex: 1;
+  }
+}
+
+%basic-area {
+  border: 5px solid #777;
+  padding: 20px;
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+
+%bg-green {
+  background-color: lightgreen;
+}
+
+%bg-orange {
+  background-color: orange;
+}
+
+%bg-blue {
+  background-color: lightblue;
+}
