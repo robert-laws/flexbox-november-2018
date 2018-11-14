@@ -1,13 +1,24 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-body {
+html {
   font:
     {
-      family: $default-font-family;
+      family: $secondary-font-family;
       size: $default-font-size;
       weight: $default-font-weight;
     }
+}
+
+a {
+  text-decoration: none;
+  opacity: 0.9;
+  color: #FFF;
+
+  &:hover {
+    opacity: 1;
+  }
 }

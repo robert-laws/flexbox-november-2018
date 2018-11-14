@@ -23,3 +23,36 @@
 //   padding: 10px;
 //   border: 1px dashed $secondary-color;
 // }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 100px 0;
+  opacity: 0;
+  animation: 1s fadein 0.5s forwards;
+  position: absolute;
+  width: 100%;
+  color: #FFF;
+  z-index: 100;
+
+  h2 {
+    font-family: $tertiary-font-family;
+  }
+
+  nav ul {
+    display: flex;
+    margin-right: -15px;
+    list-style: none;
+
+    li {
+      margin: 0 15px;
+    }
+  }
+}
+
+@keyframes fadein {
+  100% {
+    opacity: 1;
+  }
+}
