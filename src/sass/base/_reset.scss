@@ -6,8 +6,8 @@
 body {
   font:
     {
-      family: "Source Sans Pro", sans-serif;
-      size: 1em;
-      weight: 300;
+      family: $default-font-family;
+      size: $default-font-size;
+      weight: $default-font-weight;
     }
 }
