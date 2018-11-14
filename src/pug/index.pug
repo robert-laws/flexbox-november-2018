@@ -1,4 +1,59 @@
 extends layouts/baseline.pug
 
 block content
-  h1 content
+  section.hero
+    .background-image
+    .hero-content-area
+      h1 Mountain Travel
+      h3 Some Good Travel Opportunities Available Now
+      a(href="#").btn Contact Us
+  
+  section.destinations
+    h3.title Some of our destinations
+    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dignissimos cum, quod deserunt quam dicta impedit totam laudantium delectus corrupti animi atque?
+    hr
+    ul.grid
+      li.small.first
+      li.large.first
+      li.large.second
+      li.small.second
+
+  section.packages
+    h3.title Tour Packages
+    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cum aut corrupti a expedita molestiae natus, nam quod quas, laborum excepturi labore? Quas sit autem esse accusamus, beatae molestiae doloribus.
+    hr
+    ul.grid
+      li
+        i.fa.fa-compass.fa-4x
+        h4 Guided Trips
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa laborum aperiam hic at cum? Cum!
+      li
+        i.fa.fa-camera-retro.fa-4x
+        h4 Photo Trips
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis exercitationem illum culpa accusantium placeat cupiditate!
+      li
+        i.fa.fa-bicycle.fa-4x
+        h4 Biking Trips
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim error ducimus possimus illo veritatis!
+      li
+        i.fa.fa-flag-checkered.fa-4x
+        h4 Racing Trips
+        p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, sed aspernatur. Temporibus, aliquid! Eum, fugiat?
+
+  section.testimonials
+    h3.title Testimonials from our adventures:
+    hr
+    p.quote Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aperiam delectus. Nostrum.
+    p.author - Bob Cobb
+    p.quote Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus esse voluptas soluta hic!
+    p.author - Hal Hope
+    p.quote Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut soluta dicta repudiandae fugiat quae.
+    p.author - Kal Kool
+
+  section.contact
+    h3.title Learn more
+    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia tempora iste praesentium similique dolor maxime laboriosam. Voluptatibus nisi mollitia molestiae sunt rerum molestias dolores? Vel a laboriosam tenetur consequuntur repudiandae.
+    hr
+    form
+      input(type="email" placeholder="Email")
+      a(href="#").btn Subscribe now

@@ -49,6 +49,15 @@ header {
       margin: 0 15px;
     }
   }
+
+  @media (max-width: 800px) {
+    padding: 20px 50px;
+    flex-direction: column;
+
+    h2 {
+      margin-bottom: 15px;
+    }
+  }
 }
 
 @keyframes fadein {
