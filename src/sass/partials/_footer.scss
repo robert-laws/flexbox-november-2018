@@ -6,7 +6,7 @@ footer {
   color: #FFF;
   padding: 20px 0;
 
-  @media (max-width: 1100px) {
+  @include lg {
     flex-direction: column;
   }
 
@@ -16,7 +16,7 @@ footer {
     li {
       margin-left: 16px;
 
-      @media (max-width: 1100px) {
+      @include lg {
         margin: 0 8px;
       }
     }
@@ -28,7 +28,7 @@ footer {
     opacity: 0.6;
     align-self: center;
 
-    @media (max-width: 1100px) {
+    @include lg {
       text-align: center;
       margin-bottom: 20px;
     }

@@ -50,12 +50,16 @@ header {
     }
   }
 
-  @media (max-width: 800px) {
+  @include md {
     padding: 20px 50px;
     flex-direction: column;
 
     h2 {
       margin-bottom: 15px;
+    }
+
+    nav ul {
+      margin-right: 0px;
     }
   }
 }
