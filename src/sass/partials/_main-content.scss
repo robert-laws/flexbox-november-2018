@@ -48,6 +48,11 @@ section {
       @include md {
         padding: 15px 40px;
       }
+
+      &:hover {
+        background-color: darken(#3F51B5, 10%);
+        // animation: btn-move 2s ease-out;
+      }
     }
 
     .background-image {
