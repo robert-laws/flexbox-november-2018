@@ -30,17 +30,15 @@ a.btn {
 }
 
 .box {
-  position: absolute;
-  left: 200px;
   width: 100px;
   height: 100px;
   color: #FFF;
   background-color: red;
   padding: 20px;
 
-  animation: 
-    box-color 2s linear infinite,
-    nudge 4s ease-out infinite;
+  // animation: 
+  //   box-color 2s linear infinite,
+  //   nudge 4s ease-out infinite;
 }
 
 .element {
@@ -79,5 +77,16 @@ a.btn {
   
   80% {
     transform: translate(-150px, 0);
+  }
+}
+
+
+main {
+  display: flex;
+  justify-content: space-between;
+
+  .content {
+    width: 200px;
+    flex: 1;
   }
 }
