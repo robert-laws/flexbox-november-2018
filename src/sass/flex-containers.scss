@@ -3,36 +3,55 @@ $color-box-red: #F00;
 $color-box-blue: #00F;
 
 h1 {
-  color: $color-flex-containers;
+  color: darken($color-flex-containers, 50%);
 }
 
 main {
-  width: 1200px;
+  width: 800px;
   margin: 0 auto;
 }
 
 .direction {
-  background-color: lighten($color-flex-containers, 20%);
+  h3 {
+    margin-top: 3rem;
+  }
 
   & > div {
-    margin: 10px;
+    background-color: lighten($color-flex-containers, 20%);
+    height: 360px;
+    margin: 10px 0;
+    border: 1px solid #000;
     display: flex;
   }
 
   &--row {
     flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
   }
 
   &--row-reverse {
     flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    align-content: space-between;
   }
 
   &--column {
     flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
   }
 
   &--column-reverse {
     flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    align-content: stretch;
+  }
+
+  &--justify {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 
@@ -51,3 +70,18 @@ main {
     background-color: $color-box-red;
   }
 }
+
+.box2 {
+  padding: 5px;
+  font: {
+    size: 1.2rem;
+    weight: bold;
+  }
+  color: #FFF;
+  border: 1px solid $color-flex-containers;
+
+  &.red {
+    background-color: $color-box-red;
+  }
+}
+

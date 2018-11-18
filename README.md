@@ -16,17 +16,17 @@
 
 ## Flex Item Properties
 
-* order:
+* order: <integer> /* default is 0 */
 
-* flex:
+* flex: flex-grow flex-shrink flex-basis
 
-* flex-grow:
+* flex-grow: <number> /* default is 0 */
 
-* flex-shrink:
+* flex-shrink: <number> /* default is 0 */
 
-* flex-basis:
+* flex-basis: <length> | auto; /* default auto */ /* defines the default size of an element before the remaining space is distributed */
 
-* align-self:
+* align-self: auto | flex-start | flex-end | center | baseline | stretch;
 
 ### Useful Resources
 
