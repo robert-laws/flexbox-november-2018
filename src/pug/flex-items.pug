@@ -1,0 +1,57 @@
+doctype html
+html
+  head
+    title Flexbox Review - November 2018 | Flex Items
+    include includes/flex-items-head.pug
+  body
+    block content
+      main
+        section.intro
+          h1 Flex Items
+        .direction
+          h3 order: 1 | -1 | n
+          .direction--order
+            .box.red Box 1<br>order: 2;
+            .box.red Box 2
+            .box.red Box 3<br>order: 20;
+            .box.red Box 4
+            .box.red Box 5<br>order: -5;
+          h3 flex-grow: 1 | 4 | n
+          .direction--grow
+            .box.red Box 1
+            .box.red Box 2<br>flex-grow: 2;
+            .box.red Box 3
+            .box.red Box 4
+            .box.red Box 5<br>flex-grow: 4;
+          h3 flex-basis: 200px | auto
+          .direction--basis
+            .box.red Box 1
+            .box.red Box 2<br>flex-basis: 200px;
+            .box.red Box 3
+            .box.red Box 4
+            .box.red Box 5<br>flex-basis: 100px;
+      h3.seperate flex-shrink: 1 | 4 | n
+      .width-div
+        .direction--shrink
+          .box.red Box 1<br>flex-shrink: 2;
+          .box.red Box 2
+          .box.red Box 3
+          .box.red Box 4
+          .box.red Box 5
+      h3.separate flex: flex-grow flex-shrink flex-basis /* defaults: 0 1 auto */
+      .width-div
+        .direction--flex
+          .box.red Box 1
+          .box.red Box 2
+          .box.red Box 3
+          .box.red Box 4<br>flex: 1 3 200px;
+          .box.red Box 5<br>flex: 3 2 200px;
+      .direction-2
+        h3 align-self: 
+        .direction-2--self
+          .box.red Box 1
+          .box.red Box 2<br>align-self: flex-end;
+          .box.red Box 3
+          .box.red Box 4
+          .box.red Box 5<br>align-self: center;
+      br
